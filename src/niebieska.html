@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+<meta charset="UTF-8">
+<title> Automat z herbatą </title>
+</head>
+<body style="background-color:darkgreen; cursor: default"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<div id="header">
+    <br><br><br></div>
+    <div class="navbar" id="navbar">
+    <h1 style="font-size:30px;"><b><i>Automat z herbatą</i></b></h1>
+    
+<center> <div class="btn-group">
+<a class="active" href="index.html"><button type="button" class="btn btn-secondary">Automat z Herbatą</button></a>
+<a href="czarna.html"><button type="button" class="btn btn-secondary">Czarna</button></a>
+<a href="zielona.html"><button type="button" class="btn btn-secondary">Zielona</button></a>
+<a href="biala.html"><button type="button" class="btn btn-secondary">Biała</button></a>
+<a href="czerwona.html"><button type="button" class="btn btn-secondary">Czerwona</button></a>
+<a href="niebieska.html"><button type="button" class="btn btn-secondary">Niebieska</button></a>
+<a href="zolta.html"><button type="button" class="btn btn-secondary">Zółta</button>
+</a>
+<a href="ankieta.php"><button type="button" class="btn btn-secondary">Ankieta</button>
+</a>
+<a href="kalkulator.php"><button type="button" class="btn btn-secondary">Kalkulator</button>
+</a>
+<a href="dodatki.php"><button type="button" class="btn btn-secondary">Dodatki</button>
+</a>
+</div></center>
+  </div> 
+         
+<div><center><h1 style="color: #66ccff">Niebieska</h1></center></div>
+    
+<p style="color: #66ccff">Inaczej ulung ("czarny smok") nazywana też "niedofermentowaną" lub "półfermentowaną". Po zebraniu liście są pozostawiane na słońcu. Po zwiędnięciu wytrząsane w bambusowych koszach w celu obtarcia brzegów liści. Proces powtarzany dona przemian do momentu, aż liście uzyskają żółtawy kolor. Wtedy poddawane lekkiej fermentacji i procesowi palenia.</p>
+<center><img src="blue-tea.jpg" alt="obrazek"></center>   
+<br>
+    <form method="POST" action="baza.php">
+        <input type="hidden" name="tablica" value="herbata" required><br>
+        <input type="hidden" name="rodzaj" value="niebieska" required><br>
+		<input type="hidden" name="adres" value="niebieska.html" required><br>
+    <center><button class="myButton">Odmiany herbat</button></center>
+    </form>
+	<br>
+<div class="text fixed-bottom" id="footer"><center>Strona Joanny Koszyk</center></div>
+</body>
+<style>
+#header {   
+    background-color: silver;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: darkslategrey; }
+#footer {    
+        background-color: silver;
+	    font: 12px Algerian;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        }	 
+#navbar {
+  overflow: hidden;
+  background-color: silver;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: silver;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.myButton {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border:5px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Papyrus;
+	font-size:28px;
+	padding:9px 76px;
+}
+
+</style>
+</html>
