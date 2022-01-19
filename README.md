@@ -1,3 +1,3 @@
 # Strona-o-herbacie
 
-Strona internetowa pozwalająca na interakcję z bazą danych. Pozwala na dodawanie oraz usuwanie dodatków do tabeli wspólnych dla każdego użytkownika, jak również pozwala na przesłanie ankiety
+Strona Automat z herbatą pozwala na wyświetlanie strony o każdej herbacie oraz wyświetlenie jej rodzajów z bazy danych. Pozwala także na dodawanie oraz usuwanie dodatków do tabeli wspólnej dla wszystkich użytkowników, jak również pozwala na przesłanie ankiety.
